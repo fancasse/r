@@ -6,7 +6,7 @@ with open('config.json', 'r') as f:
 
 
 def getID(game, id):
-  if config[game]["custom-client-id"] != "698274476126765086":
+  if config[game]["custom-client-id"] != "533030848853966859":
     return config[game]["custom-client-id"]
   else:
     return id
